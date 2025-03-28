@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+#test: ../test/images
+
+nc: 5
+names: ['dotted_lines', 'finish', 'obstacle', 'road', 'solid_line']
+
+roboflow:
+  workspace: isc-9z5j7
+  project: isc_sim_yolo
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/isc-9z5j7/isc_sim_yolo/dataset/2
